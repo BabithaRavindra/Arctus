@@ -17,7 +17,7 @@
 **Financial certainty, simulated in seconds.**  
 Arctus replaces 2–3 days of fragile, formula-breaking Excel scenario planning with a 30-second automated, statistically rigorous Monte Carlo forecasting and AI Board Presentation engine tailored for Indian commercial banking covenants and Ind AS reporting standards.
 
-[🌐 Open Live App](https://arctus.streamlit.app/) • [Key Capabilities](#-key-capabilities) • [Platform Architecture](#-system-architecture) • [Product Modules](#-core-product-workspaces) • [Quickstart](#-quickstart--installation) • [API Guide](#-programmatic-rest-api)
+[🌐 Open Live App](https://arctus.streamlit.app/) • [🚀 Live Deployment Guide](#-live-cloud-deployment) • [System Architecture](#-system-architecture) • [Product Workspaces](#-core-product-workspaces) • [Local Setup](#-local-development--installation) • [REST API](#-programmatic-rest-api)
 
 ---
 
@@ -47,6 +47,37 @@ Arctus provides an end-to-end quantitative platform:
 - **Scenario Studio**: Unlimited custom scenario authoring with probability-weighted composite forecasting.
 - **Debt Covenant Matrix**: Real-time evaluation of ICR ($\ge 2.0\text{x}$), DSCR ($\ge 1.25\text{x}$), Net Debt/EBITDA ($\le 3.0\text{x}$), and Current Ratio ($\ge 1.33\text{x}$) with Monte Carlo breach odds.
 - **One-Click AI Board Presentation Generator**: Exports fully editable native PowerPoint decks (`.pptx`) and executive PDF board packs (`.pdf`) with 4-pillar narrative commentary and audit traceability.
+
+---
+
+## 🌐 Live Cloud Deployment
+
+Arctus is deployed and actively hosted on **Streamlit Community Cloud**. Evaluators, executives, and reviewers can test all platform features directly in the browser with zero local installation required.
+
+<div align="center">
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://arctus.streamlit.app/)
+&nbsp;&nbsp;
+[![Live App Status](https://img.shields.io/badge/Status-Operational%20%7C%20Live-7A9B76?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=16202E)](https://arctus.streamlit.app/)
+
+**Production URL:** [https://arctus.streamlit.app/](https://arctus.streamlit.app/)  
+**Instant Demo Access (Bypass Login):** [https://arctus.streamlit.app/?page=overview](https://arctus.streamlit.app/?page=overview)
+
+</div>
+
+### 🔑 Live Testing & Access Guide
+
+| Route | Direct Link | Authentication | Description |
+|:---|:---|:---|:---|
+| **⚡ Instant Executive Cockpit** | [**Launch Cockpit Direct**](https://arctus.streamlit.app/?page=overview) | *None Required* (Pre-authenticated bypass) | Jumps straight into the financial model, cash runway, and scenario sensitivity sliders. |
+| **🏢 Public Presentation Realm** | [**Open Public Portal**](https://arctus.streamlit.app/) | Any Email & Password (or click *Register*) | Experience the full product landing page, theme switcher, and client onboarding walkthrough. |
+
+> [!TIP]
+> **What to test in the live demo:**
+> 1. **Interactive Grid (`/model`)**: Edit revenue or custom ledger cells and watch Gross Profit & EBITDA auto-recompute in real-time.
+> 2. **Monte Carlo Engine (`/scenarios`)**: Run 1,000 statistical iterations across Indian macro shocks (e.g. *US Tariffs*, *Red Sea Freight Spike*).
+> 3. **Consortium Covenants (`/covenants`)**: Inspect breach risk against SBI/HDFC limits (ICR $\ge 2.0\text{x}$, DSCR $\ge 1.25\text{x}$).
+> 4. **Board Pack Generator (`/board_presentation`)**: Generate and download an editable native PowerPoint (`.pptx`) or executive PDF board pack with automated commentary.
 
 ---
 
@@ -157,7 +188,10 @@ All figures follow Indian comma grouping notation (`₹ 12,34,567.89`) with togg
 
 ---
 
-## ⚡ Quickstart & Installation
+## 💻 Local Development & Installation
+
+> **Looking for the live hosted demo?** You can test Arctus instantly without any setup at [arctus.streamlit.app](https://arctus.streamlit.app/).  
+> Follow the steps below if you wish to run Arctus locally, contribute code, or run the test suite.
 
 ### Prerequisites
 - Python 3.11, 3.12, or 3.13
