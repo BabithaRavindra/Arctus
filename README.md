@@ -7,6 +7,7 @@
 *Engineered for Indian Mid-Market Corporates (₹25 Cr to ₹500 Cr)*
 
 [![Python Version](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-101722?style=for-the-badge&logo=python&logoColor=B49A5A&labelColor=16202E)](https://www.python.org/)
+[![Live App](https://img.shields.io/badge/Live%20App-arctus.streamlit.app-B49A5A?style=for-the-badge&logo=streamlit&logoColor=101722&labelColor=16202E)](https://arctus.streamlit.app/)
 [![Framework](https://img.shields.io/badge/Streamlit-1.42+-101722?style=for-the-badge&logo=streamlit&logoColor=B49A5A&labelColor=16202E)](https://streamlit.io/)
 [![REST API](https://img.shields.io/badge/Flask%20REST-Ready-101722?style=for-the-badge&logo=flask&logoColor=B49A5A&labelColor=16202E)](https://flask.palletsprojects.com/)
 [![Tests Passing](https://img.shields.io/badge/Tests-50%2F50%20Passing-7A9B76?style=for-the-badge&logo=pytest&logoColor=F4F1E8&labelColor=16202E)](#-automated-qa--test-suite)
@@ -16,7 +17,7 @@
 **Financial certainty, simulated in seconds.**  
 Arctus replaces 2–3 days of fragile, formula-breaking Excel scenario planning with a 30-second automated, statistically rigorous Monte Carlo forecasting and AI Board Presentation engine tailored for Indian commercial banking covenants and Ind AS reporting standards.
 
-[Key Capabilities](#-key-capabilities) • [Platform Architecture](#-system-architecture) • [Product Modules](#-core-product-workspaces) • [Quickstart](#-quickstart--installation) • [API Guide](#-programmatic-rest-api)
+[🌐 Open Live App](https://arctus.streamlit.app/) • [Key Capabilities](#-key-capabilities) • [Platform Architecture](#-system-architecture) • [Product Modules](#-core-product-workspaces) • [Quickstart](#-quickstart--installation) • [API Guide](#-programmatic-rest-api)
 
 ---
 
